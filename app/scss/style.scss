@@ -1,13 +1,10 @@
-@font-face {
-    font-family:'Inter', sans-serif ;
-    src: url(../fonts/src/Inter-Bold.ttf);
-}
+
 @import './reset';
 body{
     max-width: 1920px;
-    height: 6000px;
-    background-color: #121120;
-    font-family: 'Inter', sans-serif;
+    background: #1A212E;
+    font-family: "Geologica", sans-serif;
+    color: #fff;
 }
 .element-animation{
     opacity: 0;
@@ -17,4 +14,14 @@ body{
     opacity: 1;
     transition: all 1.5s;
     transform: translateY(0%);
+}
+.wrap{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1210px;
+    width: 100%;
 }

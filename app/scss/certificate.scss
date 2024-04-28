@@ -1,0 +1,44 @@
+.certificate{
+    width: 100%;
+    margin-top: 90px;
+    &__title{
+        color: rgb(255, 255, 255);
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 110%;
+        letter-spacing: -2%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    &__body{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-top: 60px;
+        &-item{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            &-link{
+                color: rgb(26, 33, 46);
+                font-size: 16px;
+                font-weight: 200;
+                line-height: 24px;
+                letter-spacing: -2%;
+                text-align: left;
+                background:
+                linear-gradient(90deg, #75C5F0 0%, #2589FF 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                bottom: 34px;
+                left: 32px;
+                text-decoration: underline;
+                max-width: 268px;
+            }
+            &-img{
+                width: 268px;
+                height: 377px;
+            }
+        }
+    }
+}

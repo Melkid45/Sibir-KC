@@ -1,0 +1,23 @@
+.gallery{
+    width: 100%;
+    padding: 120px 0;
+    &__title{
+        color: rgb(255, 255, 255);
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 110%;
+        letter-spacing: -2%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    &__body{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-top: 60px;
+        &-item{
+            width: 268px;
+            height: 201px;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.header{
+    width:100%;
+    padding-top: 24px;
+    &__body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        &-top{
+            width: 100%;
+            padding: 0 136px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &-text{
+                display: flex;
+                align-items: center;
+                gap: 32px;
+                span{
+                    color: rgb(255, 255, 255);
+                    font-size: 14px;
+                    font-weight: 200;
+                    line-height: 18px;
+                    letter-spacing: -2%;
+                    text-align: left;
+                }
+            }
+            &-social{
+                display: flex;
+                align-items: center;
+                gap: 32px;
+                a{
+                    color: rgb(255, 255, 255);
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: -2%;
+                    text-align: left;
+                }
+            }
+        }
+        &-line{
+            width: 100%;
+            height: 1px;
+            background: #ffffff20;
+        }
+        &-bot{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 136px;
+            &-logo{
+                width: 166px;
+                height: 42px;
+                img{
+                    width: 166px;
+                    height: 42px;
+                }
+            }
+            &-nav{
+                &-list{
+                    display: flex;
+                    align-items: center;
+                    gap: 32px;
+                    a{
+                        color: rgb(255, 255, 255);
+                        font-size: 16px;
+                        font-weight: 200;
+                        line-height: 20px;
+                        letter-spacing: -2%;
+                        text-align: left;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            &-buttons{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                &-item{
+                    padding: 13px 24px 13px 24px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 14px;
+                    font-weight: 200;
+                    line-height: 18px;
+                    letter-spacing: -2%;
+                    text-align: left;
+                    border-radius: 30px;
+                }
+                &-item:nth-child(1){
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    color: #fff;
+                    background: transparent;
+                }
+                &-item:nth-child(2){
+                    color: #000;
+                    background: #fff;
+                }
+            }
+        }
+    }
+}

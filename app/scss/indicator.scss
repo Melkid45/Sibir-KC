@@ -1,0 +1,148 @@
+.indicator{
+    width: 100%;
+    background: #fff;
+    margin-top: 120px;
+    padding: 120px 0;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 60px;
+        &-text{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            &-title{
+                max-width: 563px;
+                font-size: 44px;
+                font-weight: 200;
+                line-height: 48.4px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                color: rgb(26, 33, 46);
+                span{
+                    font-weight: 400;
+                }
+            }
+            &-desc{
+                color: rgb(26, 33, 46);
+                font-size: 16px;
+                font-weight: 200;
+                line-height: 150%;
+                letter-spacing: -2%;
+                text-align: left;
+                max-width: 469px;
+            }
+        }
+        &-box{
+            display: flex;
+            gap: 32px;
+            height: 423px;
+            width: 100%;
+            &-item{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                align-items: flex-start;
+                &-indi{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    align-items: flex-start;
+                    width: 268px;
+                    &-text{
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 9px;
+                        &-title{
+                            color: rgb(26, 33, 46);
+                            font-size: 52px;
+                            font-weight: 200;
+                            line-height: 110%;
+                            letter-spacing: -2%;
+                            text-align: left;
+                            text-transform: uppercase;
+                            background:
+                            linear-gradient(90deg, #75C5F0 0%, #2589FF 100%);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }
+                        p{
+                            color: rgb(26, 33, 46);
+                            font-size: 16px;
+                            font-weight: 200;
+                            line-height: 110%;
+                            letter-spacing: -2%;
+                            text-align: left;
+                            text-transform: uppercase;
+                        }
+                    }
+                    &-line{
+                        width: 100%;
+                        height: 1px;
+                        background: rgba(26, 33, 46, 0.2);
+                    }
+                    &-desc{
+                        color: rgb(26, 33, 46);
+                        font-size: 15px;
+                        font-weight: 200;
+                        line-height: 150%;
+                        letter-spacing: -2%;
+                        text-align: left;
+                    }
+                }
+            }
+            &-item:nth-child(2){
+                align-self: center;
+                align-items: center;
+                justify-content: center;
+                margin-top: -56px;
+            }
+            &-item:nth-child(3){
+                justify-content: space-between;
+            }
+        }
+        &-list{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 160px;
+            &-start, &-end{
+                display: flex;
+                flex-direction: column;
+                gap: 60px;
+            }
+            &-item{
+                display: flex;
+                flex-direction: column;
+                gap: 34px;
+                &-title{
+                    color: rgb(26, 33, 46);
+                    font-size: 44px;
+                    font-weight: 200;
+                    line-height: 110%;
+                    letter-spacing: -2%;
+                    text-align: left;
+                    text-transform: uppercase;
+                    span{
+                        font-weight: 400;
+                    }
+                }
+                ul{
+                    li{
+                        font-size: 16px;
+                        font-weight: 200;
+                        line-height: 24px;
+                        letter-spacing: -0.02em;
+                        text-align: left;
+                        color: #1A212E;
+                        max-width: 469px;
+                        list-style-type: disc;
+                        list-style-position: inside;
+                    }
+                }
+            }
+        }
+    }
+}
