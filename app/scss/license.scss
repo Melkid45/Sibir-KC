@@ -1,0 +1,132 @@
+.license{
+    width: 100%;
+    margin-top: 90px;
+    &__body{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        &-start{
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            &-title{
+                font-family: Geologica;
+                font-size: 44px;
+                font-weight: 200;
+                line-height: 48.4px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                span{
+                    font-weight: 400;
+                }
+            }
+            &-text{
+                display: flex;
+                gap: 30px;
+                p{
+                    font-size: 16px;
+                    font-weight: 200;
+                    line-height: 24px;
+                    letter-spacing: -0.02em;
+                    text-align: left;
+                    width: 368px;
+                }
+            }
+        }
+        &-end{
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+            &-text{
+                font-size: 16px;
+                font-weight: 200;
+                line-height: 24px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                width: 268px;
+            }
+            &-certificate{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                &-img{
+                    width: 268px;
+                    height: 377px;
+                }
+                &-link{
+                    color: rgb(26, 33, 46);
+                    font-size: 16px;
+                    font-weight: 200;
+                    line-height: 24px;
+                    letter-spacing: -2%;
+                    text-align: left;
+                    background:
+                    linear-gradient(90deg, #75C5F0 0%, #2589FF 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    bottom: 34px;
+                    left: 32px;
+                    text-decoration: underline;
+                    max-width: 268px;
+                }
+            }
+        }
+    }
+}
+.important{
+    width: 100%;
+    margin-top: 120px;
+    padding: 60px 70px;
+    background: #273041;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        width: 100%;
+        &-title{
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 48.4px;
+            letter-spacing: -0.02em;
+            text-align: left;
+        }
+        &-text{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            &-start{
+                font-size: 16px;
+                font-weight: 200;
+                line-height: 24px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                width: 502px;
+            }
+            &-end{
+                width: 498px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                &-title{
+                    font-size: 16px;
+                    font-weight: 200;
+                    line-height: 24px;
+                    letter-spacing: -0.02em;
+                    text-align: left;
+                    margin-left: -10px;
+                }
+                &-list{
+                    &-item{
+                        list-style: disc;
+                        list-style-position: inside;
+                        font-size: 16px;
+                        font-weight: 200;
+                        line-height: 24px;
+                        letter-spacing: -0.02em;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

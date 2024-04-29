@@ -1,0 +1,51 @@
+.article{
+    width: 100%;
+    margin-top: 90px;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        &-title{
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 48.4px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            text-transform: uppercase;
+        }
+        &-date{
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 15px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #1A212E;
+            padding: 6px 10px ;
+            max-width: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 32px;
+            background: #fff;
+            border-radius: 30px;
+        }
+        &-desc{
+            font-size: 16px;
+            font-weight: 200;
+            line-height: 24px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            max-width: 772px;
+            margin-top: 62px;
+        }
+        &-images{
+            display: flex;
+            margin-top: 60px;
+            flex-wrap: wrap;
+            gap: 32px;
+            img{
+                width: 528px;
+                height: 427px;
+            }
+        }
+    }
+}
