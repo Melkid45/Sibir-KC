@@ -36,7 +36,7 @@
                     text-decoration-line: underline;
                     text-transform: uppercase;
                 }
-                svg{
+                img{
                     width: 28px;
                     height: 28px;
                 }
@@ -73,45 +73,45 @@
                 width: 100%;
             }
             &-top{
-                &-item:nth-child(1){
+                .outpart__body-block-item:nth-child(1){
                     width: 257px;
                     height: 40px;
                 }
-                &-item:nth-child(2){
+                .outpart__body-block-item:nth-child(2){
                     width: 140px;
                     height: 56px;
                 }
-                &-item:nth-child(3){
+                .outpart__body-block-item:nth-child(3){
                     width: 234px;
                     height: 36px;
                 }
-                &-item:nth-child(4){
+                .outpart__body-block-item:nth-child(4){
                     width: 175px;
                     height: 58px;
                 }
-                &-item:nth-child(5){
+                .outpart__body-block-item:nth-child(5){
                     width: 159px;
                     height: 46px;
                 }
             }
             &-bot{
-                &-item:nth-child(1){
+                .outpart__body-block-item:nth-child(1){
                     width: 196px;
                     height: 46px;
                 }
-                &-item:nth-child(2){
+                .outpart__body-block-item:nth-child(2){
                     width: 191px;
                     height: 46px;
                 }
-                &-item:nth-child(3){
+                .outpart__body-block-item:nth-child(3){
                     width: 121px;
                     height: 58px;
                 }
-                &-item:nth-child(4){
+                .outpart__body-block-item:nth-child(4){
                     width: 92px;
                     height: 100px;
                 }
-                &-item:nth-child(5){
+                .outpart__body-block-item:nth-child(5){
                     width: 270px;
                     height: 46px;
                 }
