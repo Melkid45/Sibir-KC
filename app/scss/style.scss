@@ -19,9 +19,20 @@ body{
     margin: 0 auto;
     max-width: 1440px;
     width: 100%;
+    position: relative;
+    min-height: 100vh;
 }
 .container{
     margin: 0 auto;
     max-width: 1168px;
     width: 100%;
+}
+.desktop{
+    display: flex !important;
+}
+.mobile{
+    display: none !important;
+}
+body.hidden{
+    overflow: hidden;
 }

@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
 <link href="
-https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide.min.css
 " rel="stylesheet">
     <link rel="stylesheet" href="../scss/style.min.css">
     <title>Sibir KC</title>
@@ -15,7 +15,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 <body>
     <div class="wrap">
         <header class="header">
-            <div class="header__body">
+            <div class="header__body desktop">
                 <div class="header__body-top">
                     <div class="header__body-top-text">
                         <span>г. Красноярск, Аэропорт Емельяново</span>
@@ -58,49 +58,104 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     </div>
                 </div>
             </div>
-        </header>
-        <section class="news">
-            <div class="container">
-                <h1 class="news__title">вакансии</h1>
-                <div class="news__body">
-                    <div href="" class="news__body-item">
-                        <div class="news__body-item-date">
-                            30.01.2024
+            <div class="header__mobile mobile">
+                <div class="header__mobile-top">
+                    <a href="" class="header__body-bot-logo">
+                        <img src="../images/dist/header__logo.png" alt="">
+                    </a>
+                    <div class="header__mobile-top-burger">
+                        <div class="burger__wrap">
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
-                        <p class="news__body-item-text">грузчик</p>
-                        <a class="news__body-item-link" href="">Подробнее</a>
                     </div>
-                    <div href="" class="news__body-item">
-                        <div class="news__body-item-date">
-                            30.01.2024
-                        </div>
-                        <p class="news__body-item-text">грузчик</p>
-                        <a class="news__body-item-link" href="">Подробнее</a>
-                    </div>
-                    <div href="" class="news__body-item">
-                        <div class="news__body-item-date">
-                            30.01.2024
-                        </div>
-                        <p class="news__body-item-text">грузчик</p>
-                        <a class="news__body-item-link" href="">Подробнее</a>
-                    </div>
-                    <div href="" class="news__body-item">
-                        <div class="news__body-item-date">
-                            30.01.2024
-                        </div>
-                        <p class="news__body-item-text">грузчик</p>
-                        <a class="news__body-item-link" href="">Подробнее</a>
+                </div>
+                <div class="header__mobile-bot">
+                    <nav class="header__body-bot-nav">
+                        <ul class="header__body-bot-nav-list">
+                            <li class="header__body-bot-nav-list-item">
+                                <a href="">О компании</a>
+                            </li>
+                            <li class="header__body-bot-nav-list-item">
+                                <a href="">Клиентам</a>
+                            </li>
+                            <li class="header__body-bot-nav-list-item">
+                                <a href="">Контакты</a>
+                            </li>
+                            <li class="header__body-bot-nav-list-item">
+                                <a href="">партнерам</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__body-bot-buttons">
+                        <button class="header__body-bot-buttons-item">
+                            Статус груза
+                        </button>
+                        <button class="header__body-bot-buttons-item">
+                            Личный кабинет
+                        </button>
                     </div>
                 </div>
             </div>
+        </header>
+        <section class="doc">
+            <div class="container">
+                <div class="doc__body">
+                    <h1 class="doc__body-title">Перевозка животных и птиц</h1>
+                    <h2 class="doc__body-softtitle">Правила приема живого животного на грузовой терминал</h2>
+                    <p class="doc__body-desc">Перевозка живых животных и птиц на борту воздушного судна в качестве груза осуществляется в соответствии с рекомендациями ИАТА «Live Animal Regulations», согласия авиакомпании и наличия разрешения аэропорта трансфера и назначения.</p>
+                    <p class="doc__body-desc">Прежде чем живое животное привезти на грузовой терминал для сдачи к отправке, необходимо сделать предварительное бронирование и получить от перевозчика подтверждение о готовности принять живое животное к перевозке.</p>
+                    <p class="doc__body-desc">При бронировании перевозки грузоотправитель обязан сообщить вид, количество, вес перевозимого живого животного, габариты клетки.
+                        <br>Оплата перевозки животных в качестве груза производится по грузовым тарифам.</p>
+                    <p class="doc__body-desc">Завоз животного на грузовой терминал, для сдачи к перевозке, производится не ранее 5 часов и не позднее 3 часов до вылета планируемого рейса.</p>
+                    <p class="doc__body-desc">В случае не вылета рейса грузоотправитель обязан забрать (произвести возврат) животного со склада грузового терминала.</p>
+                    <p class="doc__body-desc">Информацию по бронированию вы можете получить по телефону: +7(391)290-46-64</p>
+                    <h2 class="doc__body-softtitle">Упаковка для живых животных</h2>
+                    <p class="doc__body-desc">Упаковка для живых животных подбирается путем измерения животного следующим образом:</p>
+                    <img class="img__small" src="../images/dist/petssm1.png" alt="">
+                    <ul class="doc__body-listalpha">
+                        <li>Длина животного от носа до основания хвоста.</li>
+                        <li>Высота от земли до локтевого сгиба, А+1/2B = длина контейнера.</li>
+                        <li>Ширина в плечах, С х 2 = Ширина контейнера.</li>
+                        <li>Высота контейнера (с плоскими или выгнутым потолком) или высота стоящего животного.</li>
+                    </ul>
+                    <img class="img__small" src="../images/dist/petssm2.png" alt="">
+                    <p class="doc__body-desc">Измерения A, B, C, D для определения размеров контейнера должны относиться к самому большому животному, ширина контейнера считается: для двух животных C x 3, для трех — C x 4. Высота и длина определяются также, как для одного животного.</p>
+                    <h2 class="doc__body-softtitle">Требования к клеткам для перевозки животных</h2>
+                    <img class="img__big" src="../images/dist/petsbg.png" alt="">
+                    <ul class="doc__body-listdisc out">
+                        <li>Клетки для перевозки животных на воздушных судах должны быть выполнены из пластика, фанеры, металла (не иметь острых углов, которыми можно повредить воздушное судно) и иметь железную дверь (пластиковые двери запрещены)! Дверные петли и штифты запоров должны выступать выше и ниже горизонтальных краев дверного проема не менее чем на 1,6 см (см. рисунки). Не использовать замки с ключами и кодами;</li>
+                        <li>Клетки должны быть оборудованы, безопасными ручками для перемещения;</li>
+                        <li>Больные животные, а также животные с повреждениями не перевозятся;</li>
+                        <li>Животные должны иметь возможность стоять, сидеть, лежать и поворачиваться в естественном положении;</li>
+                        <li>Подстилка в контейнере должна быть из нетоксичного абсорбента;</li>
+                        <li>Тарелки для пищи и воды должны быть прикреплены и доступны снаружи;</li>
+                        <li>Могут перевозиться в одном контейнере не более 2-х взрослых животных одинаковых размеров весом не более 14 кг каждое, привыкших жить вместе. Животные с большим весом перевозятся поодиночке;</li>
+                        <li>Животные до 6 месяцев из одного помета могут перевозиться в одном контейнере, но не более трех.</li>
+                    </ul>
+                    <h2 class="doc__body-softtitle">Маркировка</h2>
+                    <p class="doc__body-desc">При отправке живых животных на клетку должна быть нанесена этикетка следующего вида</p>
+                    <img class="img__small" src="../images/dist/petssm3.png" alt="">
+                    <div>
+                        <p class="doc__body-desc">Наименование:</p>
+                        <p class="doc__body-desc">Live animals (Живые животные)</p>
+                        <p class="doc__body-desc">Цвет: ярко-зеленый на светлом фоне</p>
+                        <p class="doc__body-desc">Минимальные размеры:</p>
+                        <p class="doc__body-desc">Для этикетки: 10х15 см</p>
+                        <p class="doc__body-desc">Для букв: 2,5 см</p>
+                    </div>
+                    <h2 class="doc__body-softtitle">Живые животные принимаются к отправке только при наличии ветеринарного свидетельства</h2>
+                    <p class="doc__body-desc">Приём к перевозке животных производится при условии, что грузоотправитель берет на себя всю ответственность за них. Перевозчик не отвечает за телесные повреждения, утрату, задержку в доставке, заболевания или смерть перевозимых животных, равно как в случае отказа в их ввозе или провозе через любую страну или территорию.</p>
+                </div>
+            </div>
         </section>
-        
         <footer class="footer">
             <div class="footer__body">
                 <div class="footer__body-start">
                     <div class="footer__body-start-logo">
                         <img src="../images/dist/header__logo.png" alt="">
-                        <p>ООО “Сибирь Карго Сервис” -  Грузовой терминал аэропорта «Красноярск»</p>
+                        <p>ООО “Сибирь Карго Сервис” - Грузовой терминал аэропорта «Красноярск»</p>
                     </div>
                     <nav class="footer__body-start-nav">
                         <ul class="footer__body-start-nav-list">
@@ -158,10 +213,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     </div>
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <script src="
-https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js
 "></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js" type="text/javascript"></script>
     <script src="../js/main.min.js"></script>
     <script src="../js/home.js"></script>
 </body>

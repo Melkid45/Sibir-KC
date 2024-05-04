@@ -1,3 +1,14 @@
+
+$('.header__mobile-top-burger').on('mouseup', (e) =>{
+    if($('.header').hasClass('active')){
+        $('.header').removeClass('active')
+        $('body').removeClass('hidden')
+    }else{
+        $('.header').addClass('active')
+        $('body').addClass('hidden')
+    }
+})
+
 var splide = new Splide( '#splide1', {
     type   : 'loop',
     gap: '32px',
@@ -46,3 +57,4 @@ document.oninput = function() {
 function replacer(el) {
     el.value = el.value.replace(/[^0-9Xx]/g, ''); 
 }
+
